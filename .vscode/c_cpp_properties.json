@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/examples/inc",
+                "${workspaceRoot}/mbed-os",
+                "${workspaceRoot}/libmDot-mbed5/MTS-Lora/vendor/multitech/MTS-Utils",
+                "${workspaceRoot}/libmDot-mbed5",
+                "${workspaceRoot}/mbed-os/rtos"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
